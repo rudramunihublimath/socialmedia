@@ -35,14 +35,4 @@ public class Post {
     @ManyToOne
     private User users;
 
-    @Override
-    public String toString() {
-        return "Post{" +
-                "post_id=" + post_id +
-                ", content='" + content + '\'' +
-                ", postedAt=" + postedAt +
-                ", lastUpdatedAt=" + lastUpdatedAt +
-                ", users=" + users +
-                '}';
-    }
 }
