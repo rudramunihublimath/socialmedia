@@ -21,4 +21,5 @@ public class User {
     private String name;
     //@OneToMany(mappedBy = "users")   // POST.users is referrred
     //private List<Post> post;
+
 }

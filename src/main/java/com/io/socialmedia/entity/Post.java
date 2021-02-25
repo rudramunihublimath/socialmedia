@@ -32,7 +32,7 @@ public class Post {
     @Column(name = "last_updated_at")
     private Date lastUpdatedAt = new Date();
 
-    @ManyToOne
+    @OneToOne
     private User users;
 
 }
